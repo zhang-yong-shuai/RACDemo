@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class RACSubject;
+
 @interface SecondViewController : UIViewController
+
+@property (nonatomic, strong) RACSubject *delegateSignal;
 
 @end
